@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Integrity\n"
+"POT-Creation-Date: 2024-02-09 16:23+0530\n"
+"PO-Revision-Date: 2024-02-09 16:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flythemes Team <support@flythemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: block-patterns.php:17
+msgid "Integrity"
+msgstr ""
+
+#: inc/about.php:48
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:59
+msgid "Getting Started with Integrity!"
+msgstr ""
+
+#: inc/about.php:60
+msgid ""
+"Awesome! Integrity has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in this "
+"astounding theme."
+msgstr ""
+
+#: inc/about.php:66
+msgid "More Features with Integrity Pro Theme"
+msgstr ""
+
+#: inc/about.php:67
+msgid ""
+"To get more features and unique home page sections, we recommend you "
+"activate the Integrity Pro. With the pro theme installed, get more options "
+"like google fonts, colors, sliders, page template, shortcodes and more."
+msgstr ""
+
+#: inc/about.php:68
+msgid "Buy Integrity Pro"
+msgstr ""
+
+#: inc/about.php:77
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:79
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:80
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:88
+msgid ""
+"Loved Integrity? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:89
+msgid "Review"
+msgstr ""
+
+#: patterns/404.php:12
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:16
+msgid "Page not found!"
+msgstr ""
+
+#: patterns/404.php:20
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr ""
+
+#: patterns/404.php:25
+msgid "Return Home"
+msgstr ""
+
+#: patterns/about.php:16
+msgid "About Hospital"
+msgstr ""
+
+#: patterns/about.php:22
+msgid "An Overview About Integrity"
+msgstr ""
+
+#: patterns/about.php:26
+msgid ""
+"Phasellus ullamcorper, felis vel tincidunt venenatis, quam leo commodo urna, "
+"in lobortis dolor enim id quam. Aliquam mollis quis neque et tempus. Nullam "
+"et ligula commodo, varius magna nec, vulputate justo."
+msgstr ""
+
+#: patterns/about.php:41
+msgid "Our Vision"
+msgstr ""
+
+#: patterns/about.php:45
+#: patterns/about.php:65
+msgid ""
+"Vivamus aliquam nibh quis elementum eleifend. Nullam in libero consectetur "
+"neque hendrerit pulvinar."
+msgstr ""
+
+#: patterns/about.php:61
+msgid "Our Mission"
+msgstr ""
+
+#: patterns/about.php:73
+msgid "View Our History"
+msgstr ""
+
+#: patterns/appointment.php:22
+msgid "Book Appointment Toady!"
+msgstr ""
+
+#: patterns/archive.php:54
+msgid "Sorry, No posts exists..."
+msgstr ""
+
+#: patterns/archive.php:65
+#: patterns/single.php:63
+msgid "Search"
+msgstr ""
+
+#: patterns/archive.php:75
+#: patterns/single.php:73
+msgid "Popular Posts"
+msgstr ""
+
+#: patterns/archive.php:99
+#: patterns/single.php:97
+msgid "Categories"
+msgstr ""
+
+#: patterns/archive.php:109
+#: patterns/single.php:107
+msgid "Archives"
+msgstr ""
+
+#: patterns/archive.php:119
+#: patterns/single.php:117
+msgid "Tags"
+msgstr ""
+
+#: patterns/banner.php:15
+msgid "Personal Care"
+msgstr ""
+
+#: patterns/banner.php:21
+msgid "The hospital where the doctor cares"
+msgstr ""
+
+#: patterns/banner.php:26
+msgid "Book Appointment"
+msgstr ""
+
+#: patterns/footer.php:21
+msgid ""
+"Etiam maximus varius vehicula. Quisque at massa nec nisi accumsan laoreet. "
+"Fusce id mattis tortor, ac placerat purus."
+msgstr ""
+
+#: patterns/footer.php:30
+#: patterns/header.php:34
+msgid "16 Amar Rd, Walnut, California. USA"
+msgstr ""
+
+#: patterns/footer.php:40
+#: patterns/header.php:70
+msgid "904-655-0755"
+msgstr ""
+
+#: patterns/footer.php:50
+#: patterns/header.php:52
+msgid "demo@example.com"
+msgstr ""
+
+#: patterns/footer.php:60
+msgid "Mon - Sat : 8:00AM - 10:00PM"
+msgstr ""
+
+#: patterns/footer.php:70
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer.php:80
+msgid "Home"
+msgstr ""
+
+#: patterns/footer.php:90
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:100
+msgid "Health Care"
+msgstr ""
+
+#: patterns/footer.php:110
+msgid "Insurance Claim"
+msgstr ""
+
+#: patterns/footer.php:120
+msgid "Facilities"
+msgstr ""
+
+#: patterns/footer.php:130
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer.php:140
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer.php:150
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer.php:160
+msgid "Hospital Hours"
+msgstr ""
+
+#: patterns/footer.php:171
+msgid "Monday - Friday"
+msgstr ""
+
+#: patterns/footer.php:175
+msgid "7:00 AM - 10:00 PM"
+msgstr ""
+
+#: patterns/footer.php:187
+msgid "Saturday"
+msgstr ""
+
+#: patterns/footer.php:191
+msgid "7:00 AM - 6:00 PM"
+msgstr ""
+
+#: patterns/footer.php:203
+msgid "Sunday"
+msgstr ""
+
+#: patterns/footer.php:207
+msgid "Only Emergency"
+msgstr ""
+
+#: patterns/footer.php:228
+msgid "Newsletter"
+msgstr ""
+
+#: patterns/footer.php:233
+msgid "Subscribe our newsletter to get regular updates about our Hospital."
+msgstr ""
+
+#: patterns/footer.php:252
+msgid "© Copyright 2024. All Rights Reserved."
+msgstr ""
+
+#: patterns/footer.php:256
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer.php:256
+msgid "Fly Themes"
+msgstr ""
+
+#: patterns/footer.php:256
+msgid "and"
+msgstr ""
+
+#: patterns/footer.php:256
+msgid "https://wordpress.org"
+msgstr ""
+
+#: patterns/footer.php:256
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header.php:30
+msgid "Address"
+msgstr ""
+
+#: patterns/header.php:48
+msgid "Mail Us"
+msgstr ""
+
+#: patterns/header.php:66
+msgid "Call Us"
+msgstr ""
+
+#: patterns/header.php:87
+msgid "Appointment"
+msgstr ""
+
+#: patterns/latest-news.php:13
+msgid "Keeping You Informed"
+msgstr ""
+
+#: patterns/latest-news.php:17
+msgid "Stories, Tips &amp; Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:25
+msgid ""
+"Mauris sed facilisis metus. Suspendisse imperdiet, arcu sit amet commodo "
+"sagittis, dui magna finibus enim, ac convallis lectus elit facilisis augue. "
+"Vivamus aliquam nibh quis elementum eleifend."
+msgstr ""
