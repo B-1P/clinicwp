@@ -67,6 +67,8 @@ add_action( 'after_setup_theme', 'integrity_setup' );
 
 function integrity_scripts() {
 	wp_enqueue_style( 'integrity-basic-style', get_stylesheet_uri() );
+	// Add Font Awesome for icon support
+	wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css', array(), '6.5.1' );
 }
 add_action( 'wp_enqueue_scripts', 'integrity_scripts' );
 
