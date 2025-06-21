@@ -67,6 +67,9 @@ add_action( 'after_setup_theme', 'integrity_setup' );
 
 function integrity_scripts() {
 	wp_enqueue_style( 'integrity-basic-style', get_stylesheet_uri() );
+	
+	// Add Font Awesome for better UI scaling icons
+	wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', array(), '6.4.0' );
 }
 add_action( 'wp_enqueue_scripts', 'integrity_scripts' );
 
@@ -136,6 +139,7 @@ function clinic_options_page_html() {
         update_option('clinic_address', sanitize_text_field($_POST['clinic_address']));
         update_option('clinic_address_hyperlink', sanitize_textarea_field($_POST['clinic_address_hyperlink']));
         update_option('clinic_phone', sanitize_text_field($_POST['clinic_phone']));
+        update_option('clinic_store_url', esc_url_raw($_POST['clinic_store_url']));
         update_option('clinic_hours_mon', sanitize_text_field($_POST['clinic_hours_mon']));
         update_option('clinic_hours_tue', sanitize_text_field($_POST['clinic_hours_tue']));
         update_option('clinic_hours_wed', sanitize_text_field($_POST['clinic_hours_wed']));
@@ -150,6 +154,7 @@ function clinic_options_page_html() {
     $clinic_address = get_option('clinic_address', '');
     $clinic_phone = get_option('clinic_phone', '');
 	$clinic_address_hyperlink = get_option('clinic_address_hyperlink', '');
+    $clinic_store_url = get_option('clinic_store_url', '');
     $clinic_hours_mon = get_option('clinic_hours_mon', '');
     $clinic_hours_tue = get_option('clinic_hours_tue', '');
     $clinic_hours_wed = get_option('clinic_hours_wed', '');
@@ -175,6 +180,10 @@ function clinic_options_page_html() {
                 <tr>
                     <th scope="row"><label for="clinic_phone">Clinic Phone</label></th>
                     <td><input type="text" id="clinic_phone" name="clinic_phone" value="<?php echo esc_attr($clinic_phone); ?>" class="regular-text"></td>
+                </tr>
+                <tr>
+                    <th scope="row"><label for="clinic_store_url">Store URL</label></th>
+                    <td><input type="url" id="clinic_store_url" name="clinic_store_url" value="<?php echo esc_url($clinic_store_url); ?>" class="regular-text"></td>
                 </tr>
                 <tr>
                     <th scope="row"><label for="clinic_hours_mon">Clinic Hours - Mon</label></th>
@@ -227,6 +236,10 @@ function clinic_phone_shortcode() {
 }
 add_shortcode('clinic_phone', 'clinic_phone_shortcode');
 
+function clinic_store_url_shortcode() {
+    return esc_url(get_option('clinic_store_url', '#'));
+}
+add_shortcode('clinic_store_url', 'clinic_store_url_shortcode');
 
 function clinic_hours_mon_shortcode() {
     return get_option('clinic_hours_mon', 'Not Set');
