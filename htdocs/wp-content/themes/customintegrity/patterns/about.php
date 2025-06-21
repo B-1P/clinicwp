@@ -19,11 +19,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"section-title"} -->
-<h2 class="wp-block-heading has-section-title-font-size" style="margin-top:var(--wp--preset--spacing--20);font-style:normal;font-weight:700"><?php esc_html_e('An Overview About Integrity','integrity'); ?></h2>
+<h2 class="wp-block-heading has-section-title-font-size" style="margin-top:var(--wp--preset--spacing--20);font-style:normal;font-weight:700"><?php esc_html_e('Stonegate Animal Hospital & Pet Care','integrity'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Phasellus ullamcorper, felis vel tincidunt venenatis, quam leo commodo urna, in lobortis dolor enim id quam. Aliquam mollis quis neque et tempus. Nullam et ligula commodo, varius magna nec, vulputate justo.','integrity'); ?></p>
+<p><?php esc_html_e('Stonegate Animal Hospital is a modern veterinary facility in Guelph dedicated to providing exceptional care for dogs and cats. Our hospital is equipped with digital X-rays, dental equipment, and an in-house laboratory to ensure your pets receive the best possible treatment in a comfortable, fear-free environment.','integrity'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
@@ -42,7 +42,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Vivamus aliquam nibh quis elementum eleifend. Nullam in libero consectetur neque hendrerit pulvinar.','integrity'); ?></p>
+<p style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Our vision is to be the most trusted veterinary hospital in Guelph, providing compassionate care that prioritizes the well-being of pets and the peace of mind of their owners.','integrity'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -62,7 +62,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Vivamus aliquam nibh quis elementum eleifend. Nullam in libero consectetur neque hendrerit pulvinar.','integrity'); ?></p>
+<p style="margin-top:var(--wp--preset--spacing--30)"><?php esc_html_e('Our mission is to deliver exceptional veterinary care in a fear-free environment, where pets are treated with compassion and dignity, and their owners receive the education and support they need to make informed decisions.','integrity'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

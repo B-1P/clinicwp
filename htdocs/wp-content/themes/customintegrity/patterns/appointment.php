@@ -19,7 +19,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"4.25rem","bottom":"4.25rem","left":"2.5rem","right":"2.5rem"}}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-white-background-color has-background" style="padding-top:4.25rem;padding-right:2.5rem;padding-bottom:4.25rem;padding-left:2.5rem"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontSize":"36px","fontStyle":"normal","fontWeight":"900"}},"textColor":"primary"} -->
-<h2 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-size:36px;font-style:normal;font-weight:900"><?php esc_html_e('Book Appointment Toady!','integrity'); ?></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-size:36px;font-style:normal;font-weight:900"><?php esc_html_e('Book Appointment Today!','integrity'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
